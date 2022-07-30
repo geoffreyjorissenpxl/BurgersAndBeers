@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+header {
+    background-image: url("../../../restaurant-app/public/front-page-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar{
+    /* background: #000; */
+    color: #fff;
+    height: 70px;
+}
+
+.logo{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.navbar .nav-container{
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar .nav{
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+/* .navbar li:hover{
+    background-color: #E46D6A;
+} */
+
+.navbar a {
+    color: #fff;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.navbar a:hover{
+    background-color: #ffee00;
+    color:#fd3636;
+}
+
+header .title {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+
+    color: 	#ffee00;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+header .scroll-btn{
+    margin: 150px auto;
+    padding: 30px 50px;
+    border-radius: 10px;
+    height: auto;
+    background-color: #ffee00;
+
+    text-decoration: none;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: larger;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #fd3636;
+    box-shadow: inset 0 0 0 0 #fd3636;
+    transition: ease-out 0.3s;
+}
+
+header .scroll-btn:hover{
+    box-shadow: inset 400px 0 0 0 #fd3636;
+    color: #ffee00;
+}
+
+.menu{
+    height: auto;
+    padding-bottom: 100px;
+    background-color: #fd3636;
+}
+
+.menu .menu-title{
+    padding-top: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2.1em;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    color:  #ffee00;
+    
+    text-align: center;
+}
+
+.menu .menu-container{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+
+.menu .menu-article{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.menu .article-title{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    color:  #ffee00;
+
+}
+
+.menu img {
+    width: auto;
+    height: 350px;
+}
+
+.menu p {
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+    color:  #fff;
+}
