@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+header {
+    background-image: url("../../../../restaurant-app/public/front-page-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header .title {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+
+    color: 	#ffee00;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+header .scroll-btn{
+    margin: 150px auto;
+    padding: 30px 50px;
+    border-radius: 10px;
+    height: auto;
+    background-color: #ffee00;
+
+    text-decoration: none;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: larger;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #fd3636;
+    box-shadow: inset 0 0 0 0 #fd3636;
+    transition: ease-out 0.3s;
+}
+
+header .scroll-btn:hover{
+    box-shadow: inset 400px 0 0 0 #fd3636;
+    color: #ffee00;
+}
