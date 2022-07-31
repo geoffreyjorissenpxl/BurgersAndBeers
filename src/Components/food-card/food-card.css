@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .menu{
     height: auto;
     padding-bottom: 100px;
@@ -5,12 +9,13 @@
 }
 
 .menu .menu-title{
-    padding-top: 50px;
+    padding:20px 50px;
     font-family: 'Alfa Slab One', cursive;
     font-size: 2.1em;
     letter-spacing: 3px;
     font-weight: bolder;
-    color:  #ffee00;
+    background-color:  #ffee00;
+    color: #fd3636;
     
     text-align: center;
 }
@@ -27,25 +32,87 @@
 .menu .menu-article{
     width: 100%;
     height: auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+}
+
+.menu-article .article-description {
+    display: grid;
+    grid-template-rows: auto;
+    
 }
 
 .menu .article-title{
+    margin-bottom: 30px;
+    align-self: center;
     font-family: 'Alfa Slab One', cursive;
-    font-size: 1.5em;
+    font-size: 1.7em;
     letter-spacing: 3px;
     font-weight: bolder;
     color:  #ffee00;
 
 }
 
+.menu-article a{
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #ffee00;
+    min-width: 200px;
+    align-self: center;
+
+    text-decoration: none;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #fd3636;
+    border: 2px solid transparent;
+    box-shadow: inset 0 0 0 0 #fd3636;
+    transition: ease-out 0.2s;
+}
+
+.menu-article  a:hover{
+    box-shadow: inset 400px 0 0 0 #fd3636;
+    color: #ffee00;
+    border: 2px solid #ffee00;
+}
+
+#burgers-btn,  #veggies-btn {
+    justify-self: end;
+}
+
+#beers-btn, #sodas-btn{
+    justify-self: baseline;
+}
+
+
+
 .menu img {
     width: auto;
-    height: 350px;
+    height: 300px;
 }
 
 .menu p {
     font-family: 'Alfa Slab One', cursive;
     letter-spacing: 2px;
-    color:  #fff;
+    color: #ffee00;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    .menu .menu-title{
+        font-size: 1.5em;
+    }
+    .menu .menu-article{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .menu-article img {
+        grid-row: 1/2 ;
+    }
+
 }
