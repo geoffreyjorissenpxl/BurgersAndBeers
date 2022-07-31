@@ -2,10 +2,6 @@ import "./food-card.css";
 
 const FoodCard = () => {
   return (
-    <section className="menu" id="menu">
-      <div className="menu-title">
-        OUR COMBINATION OF BURGERS AND BEERS WILL MAKE YOUR TASTEBUDS EXPLODE
-      </div>
 
       <div className="menu-container">
         <div className="menu-article">
@@ -90,7 +86,7 @@ const FoodCard = () => {
           <img src="/soda-article.jpg" alt="Soda" />
         </div>
       </div>
-    </section>
+    // </section>
   );
 };
 

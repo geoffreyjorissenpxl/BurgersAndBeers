@@ -2,34 +2,7 @@
     box-sizing: border-box;
 }
 
-.menu{
-    height: auto;
-    padding-bottom: 100px;
-    background-color: #fd3636;
-}
-
-.menu .menu-title{
-    padding:20px 50px;
-    font-family: 'Alfa Slab One', cursive;
-    font-size: 2.1em;
-    letter-spacing: 3px;
-    font-weight: bolder;
-    background-color:  #ffee00;
-    color: #fd3636;
-    
-    text-align: center;
-}
-
-.menu .menu-container{
-    margin: 0 auto;
-    margin-top: 100px;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 80px;
-}
-
-.menu .menu-article{
+.menu-article{
     width: 100%;
     height: auto;
     display: grid;
@@ -89,12 +62,12 @@
 
 
 
-.menu img {
+.menu-article img {
     width: auto;
     height: 300px;
 }
 
-.menu p {
+.menu-article p {
     font-family: 'Alfa Slab One', cursive;
     letter-spacing: 2px;
     color: #ffee00;
@@ -103,10 +76,7 @@
 
 @media only screen and (max-width: 1200px) {
 
-    .menu .menu-title{
-        font-size: 1.5em;
-    }
-    .menu .menu-article{
+    .menu-article{
         display: grid;
         grid-template-columns: 1fr;
     }
