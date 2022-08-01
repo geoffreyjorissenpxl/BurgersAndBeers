@@ -20,7 +20,7 @@
     margin-bottom: 30px;
     align-self: center;
     font-family: 'Alfa Slab One', cursive;
-    font-size: 1.7em;
+    font-size: 1.5em;
     letter-spacing: 3px;
     font-weight: bolder;
     color:  #ffee00;
@@ -46,7 +46,15 @@
     }
 
     .menu-article img {
+        width: 400px;
         grid-row: 1/2 ;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .menu-article img {
+        width: 350px;
     }
 
 }
