@@ -25,6 +25,34 @@
     row-gap: 80px;
 }
 
+.menu-container div {
+    display: grid;
+}
+
+.menu-container a{
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #ffee00;
+    min-width: 200px;
+    justify-self: end;
+
+    text-decoration: none;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #fd3636;
+    border: 2px solid transparent;
+    box-shadow: inset 0 0 0 0 #fd3636;
+    transition: ease-out 0.2s;
+}
+
+.menu-container a:hover{
+    box-shadow: inset 400px 0 0 0 #fd3636;
+    color: #ffee00;
+    border: 2px solid #ffee00;
+}
+
 
 @media only screen and (max-width: 1200px) {
 
