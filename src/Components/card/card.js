@@ -1,6 +1,6 @@
-import "./food-card.css";
+import "./card.css";
 
-const FoodCard = (props) => {
+const Card = (props) => {
   if(props.cardLayout === 'invert'){
     return (
       <div className="menu-article">
@@ -24,4 +24,4 @@ const FoodCard = (props) => {
   }
 };
 
-export default FoodCard;
+export default Card;
