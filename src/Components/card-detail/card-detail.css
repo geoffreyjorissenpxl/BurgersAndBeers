@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+.detail-article{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+}
+
+.detail-article #article-description {
+    display: grid;
+    grid-template-rows: auto;
+    
+}
+
+.detail-title{
+    margin-bottom: 30px;
+    align-self: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1.3em;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    color:  #ffee00;
+
+}
+
+.detail-article img {
+    width: 200px;
+}
+
+.detail-article p {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1em;
+    letter-spacing: 2px;
+    color: #ffee00;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    .detail-article{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    /* .menu-article img {
+        width: 400px;
+        grid-row: 1/2 ;
+    } */
+
+}
+
+@media only screen and (max-width: 800px) {
+    /* .menu-article img {
+        width: 350px;
+    } */
+
+}
