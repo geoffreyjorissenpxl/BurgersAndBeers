@@ -30,13 +30,25 @@ function App() {
 
   return (
     <Router>
-    <div>
-      <Routes>
-      <Route path='/menu' element={<MenuPage sodas={allSodas} beers={allBeers} burgers={allBurgers} veggies={allVeggies} />} />
-        <Route path='/' element={<MainPage />} />
-      </Routes>
-    </div>
-  </Router>
+      <div>
+      <Nav />
+        <Routes>
+          <Route
+            path="/menu"
+            element={
+              <MenuPage
+                sodas={allSodas}
+                beers={allBeers}
+                burgers={allBurgers}
+                veggies={allVeggies}
+              />
+            }
+          />
+          <Route path='/contact' />
+          <Route path="/" element={<MainPage />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
