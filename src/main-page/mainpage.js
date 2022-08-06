@@ -6,7 +6,7 @@ const MainPage = () => {
   return (
     <div>
       <MainHeader />
-      <section className="menu" id="articles">
+      <section className="menu" >
         <div className="menu-title">
           OUR COMBINATION OF BURGERS AND BEERS WILL MAKE YOUR TASTEBUDS EXPLODE
         </div>
@@ -43,7 +43,7 @@ const MainPage = () => {
           <div>
             <Card
               className="article"
-              photo="/images/veggie2.jpg"
+              photo="/images/veggie0.jpg"
               title="Try A Veggie Burger!"
               description="Sed nec ligula purus. 
             Nam sollicitudin tempor convallis. Aliquam elementum vitae nibh et gravida. 
