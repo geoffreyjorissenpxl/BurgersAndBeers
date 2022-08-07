@@ -1,0 +1,124 @@
+.contact-body{
+    height: 100vh;
+    padding-top:150px;
+    background-color: #fd3636;
+}
+
+.contact-body .grid-container{
+    margin: 0 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.reservation-card {
+    color: #ffee00;
+    font-weight: bolder;
+}
+
+.reservation-title, th{
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+
+table {
+    width: 100%;
+    color: #ffee00;
+    
+}
+
+table img {
+    width: 25px;
+}
+
+th{
+    padding-bottom: 20px;
+}
+
+td{
+    text-align: left;
+}
+
+.form-container{
+    margin-top: 100px;
+    
+}
+
+.form-container .reservation-title{
+    color: #ffee00;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 550px;
+}
+
+form input, textarea {
+    min-width: 100%;
+    max-width:100%;
+    margin-bottom: 8px;
+    border-radius: 5px;
+
+    border: 1px solid transparent;
+    background-color: #ffee00;
+    color: #fd3636;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+form input::placeholder{
+    color: #fd3636;
+    font-weight: bolder;
+}
+
+form textarea::placeholder{
+    color: #fd3636;
+    font-weight: bolder;
+}
+
+form input:focus{
+    outline: none;
+    border:solid #000;
+
+}
+
+form textarea:focus{
+    outline: none;
+    border:solid #000;
+}
+
+form textarea{
+    min-height: 200px;
+    max-height: 400px;
+}
+
+.form-button {
+    border: 2px solid transparent;
+    box-shadow: inset 0 0 0 0 #fd3636;
+    transition: ease-out 0.1s;
+}
+.form-button:hover {
+    box-shadow: inset 600px 0 0 0 #fd3636;
+    color: #ffee00;
+    border: 2px solid #ffee00;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .contact-body .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .reservation-card{
+        margin-bottom: 100px;
+    }
+
+    form{
+        width: 80%;
+    }
+
+   
+}
