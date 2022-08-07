@@ -1,10 +1,10 @@
-.menu{
+.article-section{
     height: auto;
     padding-bottom: 100px;
     background-color: #fd3636;
 }
 
-.menu .menu-title{
+.article-section .title{
     padding:20px 50px;
     font-family: 'Alfa Slab One', cursive;
     font-size: 2.1em;
@@ -16,7 +16,7 @@
     text-align: center;
 }
 
-.menu .menu-container{
+.article-section .article-container{
     margin: 0 auto;
     margin-top: 100px;
     width: 80%;
@@ -25,11 +25,11 @@
     row-gap: 80px;
 }
 
-.menu-container div {
+.article-container div {
     display: grid;
 }
 
-.menu-container a{
+.article-container a{
     padding: 10px 30px;
     border-radius: 10px;
     background-color: #ffee00;
@@ -54,7 +54,7 @@
     justify-self: end;
 }
 
-.menu-container a:hover{
+.article-container a:hover{
     box-shadow: inset 400px 0 0 0 #fd3636;
     color: #ffee00;
     border: 2px solid #ffee00;
@@ -66,18 +66,18 @@
 
 @media only screen and (max-width: 1200px) {
 
-    .menu .menu-title{
+    .article-section .article-title{
         font-size: 1.5em;
     }
 }
 
 @media only screen and (max-width: 800px) {
 
-    .menu .menu-title{
+    .article-section .article-title{
         font-size: 1em;
     }
 
-    .menu-container a{
+    .article-container a{
         justify-self: unset;
         margin-top: 10px;
         font-size: 1em;

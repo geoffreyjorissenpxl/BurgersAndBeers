@@ -7,6 +7,7 @@ import MainHeader from './Components/main-header/main-header';
 import MainPage from './main-page/mainpage';
 import MenuPage from './menu-page/menupage';
 import axios from 'axios';
+import ContactPage from './contact-page/contact-page';
 
 function App() {
 
@@ -30,8 +31,8 @@ function App() {
 
   return (
     <Router>
-      <div>
       <Nav />
+      <div>
         <Routes>
           <Route
             path="/menu"
@@ -44,7 +45,7 @@ function App() {
               />
             }
           />
-          <Route path='/contact' />
+          <Route path='/contact' element={<ContactPage/>} />
           <Route path="/" element={<MainPage />} />
         </Routes>
       </div>

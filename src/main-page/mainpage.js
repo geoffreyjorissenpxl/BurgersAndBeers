@@ -6,11 +6,11 @@ const MainPage = () => {
   return (
     <div>
       <MainHeader />
-      <section className="menu" >
-        <div className="menu-title">
+      <section className="article-section" >
+        <div className="title">
           OUR COMBINATION OF BURGERS AND BEERS WILL MAKE YOUR TASTEBUDS EXPLODE
         </div>
-        <div className="menu-container">
+        <div className="article-container">
           <div>
             <Card
               className="article"

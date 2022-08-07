@@ -5,13 +5,12 @@
 }
 
 .menu .menu-title{
-    padding:20px 50px;
+    padding:200px 50px 0 50px;
     font-family: 'Alfa Slab One', cursive;
-    font-size: 2.1em;
+    font-size: 2.4em;
     letter-spacing: 3px;
     font-weight: bolder;
-    background-color:  #ffee00;
-    color: #fd3636;
+    color: #ffee00;
     
     text-align: center;
 }
