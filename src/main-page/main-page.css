@@ -2,6 +2,7 @@
     height: auto;
     padding-bottom: 100px;
     background-color: #fd3636;
+    background-image: url("../../../restaurant-app/public/images/contactbg.png");
 }
 
 .article-section .title{

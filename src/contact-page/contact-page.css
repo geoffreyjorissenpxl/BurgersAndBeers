@@ -1,7 +1,7 @@
 .contact-body{
-    height: 100vh;
     padding-top:150px;
     background-color: #fd3636;
+    background-image: url("../../../restaurant-app/public/images/contactbg.png");
 }
 
 .contact-body .grid-container{
