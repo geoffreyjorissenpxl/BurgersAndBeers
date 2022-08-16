@@ -8,6 +8,8 @@
     display: grid;
     grid-template-columns: auto auto;
     grid-column-gap: 20px;
+    padding: 10px;
+    background-color: #;
 }
 
 .menu-article #article-description {

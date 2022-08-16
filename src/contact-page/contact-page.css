@@ -4,15 +4,22 @@
     background-image: url("../../../restaurant-app/public/images/contactbg.png");
 }
 
+.wrapper {
+    background-image: url('../../public/images/TEST.png');
+    margin: 0 auto;
+    width: 80%;
+
+}
+
 .contact-body .grid-container{
-    margin: 0 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 10px;
 }
 
 .reservation-card {
     color: #ffee00;
-    font-weight: bolder;
+    font-weight: bolder;    
 }
 
 .reservation-title, th{
@@ -42,8 +49,10 @@ td{
 }
 
 .form-container{
+
+    margin: 0 auto;
     margin-top: 100px;
-    
+    width: 100%;
 }
 
 .form-container .reservation-title{
@@ -54,6 +63,7 @@ td{
 form {
     margin: 0 auto;
     width: 550px;
+    padding: 10px;
 }
 
 form input, textarea {

@@ -16,6 +16,7 @@ const ContactPage = () => {
     }
     return (
       <div className="contact-body">
+        <div class="wrapper">
         <div className="grid-container">
           <div className="reservation-card">
             <div className="reservation-title">
@@ -92,6 +93,9 @@ const ContactPage = () => {
             <input type="submit" value="Submit" className='form-button' />
           </form>
         </div>
+
+        </div>
+        
       </div>
     );
 }
