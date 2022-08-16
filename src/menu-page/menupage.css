@@ -2,7 +2,11 @@
     height: auto;
     padding-bottom: 100px;
     background-color: #fd3636;
+<<<<<<< HEAD
     background-image: url("../../../restaurant-app/public/images/contactbg.png");
+=======
+    background-image: url("../../../restaurant-app/public/images/contactbg.png")
+>>>>>>> main
 }
 
 .menu .menu-title{
